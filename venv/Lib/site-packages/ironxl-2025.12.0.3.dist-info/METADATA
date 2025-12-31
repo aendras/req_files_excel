@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: IronXL
+Version: 2025.12.0.3
+Summary: IronXL for Python
+Home-page: https://ironxl.com/
+Author: Iron Software
+Author-email: developers@ironsoftware.com
+License: Commercial
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Communications
+Classifier: Topic :: Database
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Documentation
+Classifier: Topic :: Education
+Classifier: Topic :: File Formats
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Internet
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Printing
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: pythonnet
+
+![Pypi](https://img.shields.io/pypi/v/IronXL?color=informational&label=latest) ![Installs](https://img.shields.io/pypi/dm/IronXL?color=informational&label=installs&logo=pypi) ![Passed](https://img.shields.io/badge/build-%20%E2%9C%93%202425%20tests%20passed%20(0%20failed)%20-107C10?logo=visualstudio) ![windows](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=windows) ![macOS](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=apple) ![linux](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=linux&logoColor=white) ![docker](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=docker&logoColor=white) ![aws](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=amazonaws) ![microsoftazure](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=microsoftazure) [![livechat](https://img.shields.io/badge/Live%20Chat-Active-purple?logo=googlechat&logoColor=white)](https://ironsoftware.com/python/excel/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=topshield#helpscout-support)
+
+# IronXL - The Python Excel Library
+
+
+[![IronXL NuGet Trial Banner Image](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronXL-python-readme/nuget-trial-banner-large.png)](https://ironsoftware.com/python/excel/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=topbanner#trial-license)
+
+[Get Started](https://ironsoftware.com/python/excel/docs/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=navigation) | [Features](https://ironsoftware.com/python/excel/features/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=navigation) | [Code Examples](https://ironsoftware.com/python/excel/examples/read-excel/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=navigation) | [Licensing](https://ironsoftware.com/python/excel/licensing/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=navigation) | [Free Trial](https://ironsoftware.com/python/excel/docs/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=navigation#trial-license)
+
+IronXL is a library developed and maintained by Iron Software that helps Software Engineers to read, generate and edit Excel (and other Spreadsheet files) in Python applications & websites.
+
+IronXL is a fast and natural approach to work with Excel and Other Spreadsheet files in Python. With no utilization of Office Excel Interopm IronXL works well with Python. All without extra dependencies or the need to install MS Office.
+
+### IronXL excels at:
+- Import Data from XLS/XLSX/CSV/TSV.
+- Export Work Sheets to XLS/XLSX/CSV/TSV/JSON.
+- Encrypt and decrypt XLSX/XLSM/XLTX files with passwords.
+- Work with Spreadsheets as System.Data.DataSet and System.Data.DataTable objects.
+- Excel Formulas recalculated every time a sheet it edited.
+- Intuitive Ranges setting with a WorkSheet["A1:B10"] syntax.
+- Sort Ranges, Columns and Rows.
+- Style Cells - Font, Size, Background pattern, Border, Alignment and Number formats.
+
+#### Document Formats
+- Load, Read and Edit Data: XLS, XLSX, XLST, XLSM, CSV and TSV
+- Saving and Exporting: XLS, XLSX, XLST, XLSM, CSV, TSV and JSON
+- System.Data Objects: Work with Excel Spreadsheets as System.Data.DataSet and System.Data.DataTable
+
+#### Sheet Functions
+- Formulas: Works with Excel formulas and formulas recalculated every time a sheet it edited
+- Cell Data Formats: Text, Number, Formulas, Dates, Currency, Percentage, Scientific, Time and Custom Formats
+- Sorting: Ranges, Columns and Rows
+- Cell Styling: Font, Size, Background pattern, Border and Alignment
+
+### IronXL has cross platform support compatibility with:
+- Python 3.7+
+- Windows, macOS, Linux, Docker, Azure, and AWS
+
+[![IronXL Cross Platform Compatibility Support Image](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronXL-python-readme/cross-platform-compatibility.png)](https://ironsoftware.com/python/excel/docs/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=crossplatformbanner)
+
+Additionally, our [API reference](https://ironsoftware.com/python/excel/object-reference/api/) and [full licensing information](https://ironsoftware.com/python/excel/licensing/#trial-license) can easily be found on our website.
+
+### Using IronXL
+***
+IronXL Python relies on .NET 6.0 as its underlying technology. Therefore, it is necessary to have the .NET 6.0 runtime installed on your machine in order to use IronXL Python.
+
+Linux and Mac users may need to install .NET from https://dotnet.microsoft.com/en-us/download/dotnet/6.0 prior to using this Python package.
+
+### Install Using Pip
+```
+pip install ironxl
+```
+IronPDF will then download additional dependencies the first time you run it.
+
+### Or Download the Full Package
+Optionally, download the Python package specific to your platform from our downloads section at https://ironxl.com/python/
+### Usage
+Once installed, you can get started by adding `from ironxl import *` to the top of your Python script. Here is an example to get started:
+```python
+from ironxl import *
+
+workbook = WorkBook("test.xlsx")
+print(workbook.WorkSheets.Count)
+```
+
+## Features Table
+[![IronXL Features Table](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronXL-python-readme/features-table.png)](https://ironsoftware.com/python/excel/features/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=featuresbanner)
+
+## Licensing & Support available
+For code examples, tutorials and documentation visit [https://ironsoftware.com/python/excel/](https://ironsoftware.com/python/excel/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
+
+For support please email us at support@ironsoftware.com
+
+## Documentation Links
+
+-   Code Examples : [(https://ironsoftware.com/python/excel/examples/](https://ironsoftware.com/python/excel/examples/read-excel/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
+-   API Reference : [https://ironsoftware.com/python/excel/object-reference/api/](https://ironsoftware.com/python/excel/object-reference/api/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
+-   Tutorials : [https://ironsoftware.com/python/excel/tutorials/how-to-read-excel-file-python/](https://ironsoftware.com/python/excel/tutorials/how-to-read-excel-file-python/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
+-   Licensing : [https://ironsoftware.com/python/excel/licensing/](https://ironsoftware.com/python/excel/licensing/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
+- Live Chat Support : [https://ironsoftware.com/python/excel/#helpscout-support](https://ironsoftware.com/python/excel/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs#helpscout-support)
+
+You can email us at support@ironsoftware.com for support directly from our code team. We offer licensing and extensive support for commercial deployment projects.
+
+
