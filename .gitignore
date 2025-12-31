@@ -1,0 +1,28 @@
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+.env/
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# Ignore ALL model weights anywhere
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# -------------------------
+# Python cache
+# -------------------------
+__pycache__/
+*.pyc
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
